@@ -7,7 +7,7 @@ const Header = () => {
 
   const {systemTheme , theme, setTheme} = useTheme ();
   const [mounted, setMounted] = useState(false);
-  
+
   useEffect(() =>{
     setMounted(true);
   },[])
@@ -17,17 +17,17 @@ const Header = () => {
 
       const currentTheme = theme === "system" ? systemTheme : theme ;
 
-      if(currentTheme ==="dark"){
-        return (
-          <SunIcon className="w-10 h-10 text-yellow-500 " role="button" onClick={() => setTheme('light')} />
-        )
-      }
+      // if(currentTheme ==="dark"){
+      //   return (
+      //     <SunIcon className="w-10 h-10 text-yellow-500 " role="button" onClick={() => setTheme('light')} />
+      //   )
+      // }
 
-      else {
-        return (
-          <MoonIcon className="w-10 h-10 text-gray-900 " role="button" onClick={() => setTheme('dark')} />
-        )
-      }
+      // else {
+      //   return (
+      //     <MoonIcon className="w-10 h-10 text-gray-900 " role="button" onClick={() => setTheme('dark')} />
+      //   )
+      // }
    };
 
   return (
