@@ -2,7 +2,19 @@
 
 Neste exercício vamos criar um fluxo de deployment e release para uma aplicação web utilizando o GitHub Actions e Azure Web Apps.
 
-## Configurando o ambiente Azure
+## Exercício 1 - Criando o fluxo de release
+
+- Baseado no conteúdo demonstrado durante a aula, crie um novo branch no seu repositório chamado `exercicio-aula-3`
+- Crie um commit adicionando um arquivo de texto na raiz do repositório com o nome `nova_feature.txt`(o arquivo pode estar vazio)
+- Adicione uma nova mensagem de commit como se fosse uma nova feature
+- Edite o arquivo `README.md` e adicione uma nova mensagem de commit como se fosse uma correção de bug
+- Abra um Pull Request para o branch `main` com as alterações
+- Faça o merge do Pull Request
+- Observe a criação de uma nova release no seu repositório
+
+## Exercício 2 - Fazendo o deploy da nossa aplicação
+
+### Configurando o ambiente Azure
 
 Para este exercício vamos utilizar o Azure Web Apps para hospedar nossa aplicação web. Para isso, vamos criar um novo recurso no Azure chamado Web App. Para isso, acesse o portal do Azure e crie um novo recurso do tipo Web App. Para este exercício, vamos utilizar o plano de serviço gratuito, mas você pode utilizar o plano de serviço pago se preferir.
 
@@ -37,13 +49,3 @@ Se você estiver utilizando o plano de serviço gratuito, provavelmente irá rec
 - Selecione `Owner` no campo `Role`
 - Na aba `Members`, selecione o seu usuário clicando em `Select members`
 - Clique em `Review + assign`
-
-## Criando o fluxo de release
-
-- Baseado no conteúdo demonstrado durante a aula, crie um novo branch no seu repositório chamado `exercicio-aula-3`
-- Crie um commit adicionando um arquivo de texto na raiz do repositório com o nome `nova_feature.txt`(o arquivo pode estar vazio)
-- Adicione uma nova mensagem de commit como se fosse uma nova feature
-- Edite o arquivo `README.md` e adicione uma nova mensagem de commit como se fosse uma correção de bug
-- Abra um Pull Request para o branch `main` com as alterações
-- Faça o merge do Pull Request
-- Observe a criação de uma nova release no seu repositório
