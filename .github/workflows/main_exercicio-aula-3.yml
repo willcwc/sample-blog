@@ -28,7 +28,7 @@ jobs:
           npm run test --if-present
 
       - name: Zip file
-        run: zip -r node-app.zip .
+        run: zip -r node-app.zip . -x .git\* -x .github\* -x .vscode\* -x .\* -x node_modules\*
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
@@ -56,4 +56,4 @@ jobs:
           app-name: 'exercicio-aula-3'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
-          package: .
+          package: ./node-app.zip
