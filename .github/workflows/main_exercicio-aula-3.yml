@@ -28,7 +28,7 @@ jobs:
           npm run test --if-present
 
       - name: Zip file
-        run: zip -r node-app.zip . -x .git\* -x .github\* -x .vscode\*
+        run: zip -r node-app.zip .
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2

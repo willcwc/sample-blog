@@ -24,9 +24,7 @@ Para este exercício vamos utilizar o Azure Web Apps para hospedar nossa aplica�
 - Baixe o `Publish Profile` clicando em `Download publish profile`
 - Salve seu conteúdo como um Secret no GitHub com o nome `AZURE_WEBAPP_PUBLISH_PROFILE`
 - Na aba `Configuraton`, clique em `General Settings` e depois em cole os seguintes comandos no campo `Startup Command`:
-  - `npm install`
-  - `npm run build`
-  - `npm run start`
+  - `npm start`
 - A aplicação irá reiniciar, aguarde e depois clique para ver o app criado
 
 ### :warning: Corrigindo problemas de permissão
