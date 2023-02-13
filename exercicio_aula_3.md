@@ -18,8 +18,11 @@ Para este exercício vamos utilizar o Azure Web Apps para hospedar nossa aplica�
   - Selecionar o seu usuário
   - Selecionar o repositório `octodex-feed-app`
   - Branch: `main`
+  - Selecione para utilizar o arquivo `main_exercicio-aula-3.yml` do repositório
 - **Clique em `Review + Create` e em seguida em `Create`**
 - Espere :clock1: até que o recurso seja criado
+- Baixe o `Publish Profile` clicando em `Download publish profile`
+- Salve seu conteúdo como um Secret no GitHub com o nome `AZURE_WEBAPP_PUBLISH_PROFILE`
 - Na aba `Configuraton`, clique em `General Settings` e depois em cole os seguintes comandos no campo `Startup Command`:
   - `npm install`
   - `npm run build`
