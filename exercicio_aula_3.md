@@ -9,7 +9,7 @@ Para este exerc√≠cio vamos utilizar o Azure Web Apps para hospedar nossa aplica√
 - **Nome do recurso**: `exercicio-ci-cd-fiap` (Criar novo)
 - **Nome do App**: `exercicio-aula-3`
 - **Publish**: `Code`
-- **Runtime Stack**: `Node 18 LTS`
+- **Runtime Stack**: `Node 16 LTS`
 - **Linux plan**: `Exercicios-FIAP` (Criar novo)
 - **Pricing Tier**: `Basic B1`
 - **GitHub Actions settings**: `Enable continuous deployment`
