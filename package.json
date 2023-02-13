@@ -1,17 +1,20 @@
 {
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "next start"
+    "start": "node server.js"
+
   },
   "dependencies": {
     "@badrap/bar-of-progress": "^0.1.2",
     "@heroicons/react": "^1.0.5",
+    "http": "^0.0.1-security",
     "next": "latest",
     "next-themes": "^0.0.15",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "url": "^0.11.0"
   },
   "devDependencies": {
     "@semantic-release/git": "^10.0.1",
