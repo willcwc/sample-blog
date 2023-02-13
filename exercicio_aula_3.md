@@ -29,7 +29,7 @@ Para este exercício vamos utilizar o Azure Web Apps para hospedar nossa aplica�
   - `npm run start`
 - A aplicação irá reiniciar, aguarde e depois clique para ver o app criado
 
-### Corrigindo problemas de permissão
+### :warning: Corrigindo problemas de permissão
 
 Se você estiver utilizando o plano de serviço gratuito, provavelmente irá receber um erro de permissão ao tentar fazer o deploy da aplicação. Para corrigir isso, vamos adicionar o usuário o seu usuário como `Owner` do resource group.
 - Selecione o resource group criado
@@ -41,3 +41,11 @@ Se você estiver utilizando o plano de serviço gratuito, provavelmente irá rec
 - Clique em `Review + assign`
 
 ## Criando o fluxo de release
+
+- Baseado no conteúdo demonstrado durante a aula, crie um novo branch no seu repositório chamado `exercicio-aula-3`
+- Crie um commit adicionando um arquivo de texto na raiz do repositório com o nome `nova_feature.txt`(o arquivo pode estar vazio)
+- Adicione uma nova mensagem de commit como se fosse uma nova feature
+- Edite o arquivo `README.md` e adicione uma nova mensagem de commit como se fosse uma correção de bug
+- Abra um Pull Request para o branch `main` com as alterações
+- Faça o merge do Pull Request
+- Observe a criação de uma nova release no seu repositório
