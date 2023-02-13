@@ -7,7 +7,7 @@ Neste exercício vamos criar um fluxo de deployment e release para uma aplicaç�
 Para este exercício vamos utilizar o Azure Web Apps para hospedar nossa aplicação web. Para isso, vamos criar um novo recurso no Azure chamado Web App. Para isso, acesse o portal do Azure e crie um novo recurso do tipo Web App. Para este exercício, vamos utilizar o plano de serviço gratuito, mas você pode utilizar o plano de serviço pago se preferir.
 
 - **Nome do recurso**: `exercicio-ci-cd-fiap` (Criar novo)
-- **Nome do App**: `exercicio-aula-3`
+- **Nome do App**: `exercicio-aula-3-<seu_usuario_github>`
 - **Publish**: `Code`
 - **Runtime Stack**: `Node 16 LTS`
 - **Linux plan**: `Exercicios-FIAP` (Criar novo)
@@ -24,7 +24,7 @@ Para este exercício vamos utilizar o Azure Web Apps para hospedar nossa aplica�
 - Baixe o `Publish Profile` clicando em `Download publish profile`
 - Salve seu conteúdo como um Secret no GitHub com o nome `AZURE_WEBAPP_PUBLISH_PROFILE`
 - Na aba `Configuraton`, clique em `General Settings` e depois em cole os seguintes comandos no campo `Startup Command`:
-  - `npm start`
+  - `npm install`
 - A aplicação irá reiniciar, aguarde e depois clique para ver o app criado
 
 ### :warning: Corrigindo problemas de permissão
