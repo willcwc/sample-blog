@@ -28,7 +28,7 @@ Para este exercício vamos utilizar o Azure Web Apps para hospedar nossa aplica�
 - **Conexão com o GitHub**:
   - Autorizar
   - Selecionar o seu usuário
-  - Selecionar o repositório `octodex-feed-app`
+  - Selecionar o repositório `sample-blog`
   - Branch: `main`
   - Selecione para utilizar o arquivo `main_exercicio-aula-3.yml` do repositório
 - **Clique em `Review + Create` e em seguida em `Create`**
