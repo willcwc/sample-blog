@@ -4,6 +4,7 @@ Neste exercício vamos criar um fluxo de deployment e release para uma aplicaç�
 
 ## Exercício 1 - Criando o fluxo de release
 
+- Faça o fork deste repositório para o seu usuário
 - Baseado no conteúdo demonstrado durante a aula, crie um novo branch no seu repositório chamado `exercicio-aula-3`
 - Crie um commit adicionando um arquivo de texto na raiz do repositório com o nome `nova_feature.txt`(o arquivo pode estar vazio)
 - Adicione uma nova mensagem de commit como se fosse uma nova feature
