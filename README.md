@@ -33,5 +33,5 @@ Courtesy of [Vikas Rai](https://github.com/raiv200)
 
 
 QUALQUER COISA NOVA
-Adicionada correção de bugs 29/03/23
+Adicionada correção de um bug 29/03/23
 
